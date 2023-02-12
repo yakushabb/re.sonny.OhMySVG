@@ -1,0 +1,28 @@
+{
+  "id": "re.sonny.OhMySVG",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "43",
+  "sdk": "org.gnome.Sdk",
+  "command": "re.sonny.OhMySVG",
+  "finish-args": [
+    "--share=ipc",
+    "--device=dri",
+    "--socket=fallback-x11",
+    "--socket=wayland",
+    "--require-version=1.1.2"
+  ],
+  "modules": [
+    {
+      "name": "OhMySVG",
+      "buildsystem": "meson",
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://github.com/sonnyp/OhMySVG.git",
+          "tag": "v1.2",
+          "commit": "5aa0ef6a3d44125a37201fff5a652e81eb64e5a7"
+        }
+      ]
+    }
+  ]
+}
