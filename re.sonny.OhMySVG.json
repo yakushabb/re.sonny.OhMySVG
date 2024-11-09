@@ -21,6 +21,10 @@
           "url": "https://github.com/sonnyp/OhMySVG.git",
           "tag": "v1.3",
           "commit": "3ca42d3cdd74c6e9ce7be24ff215c08cb4edd22c"
+        },
+        {
+          "type": "patch",
+          "path": "fix-appdata.patch"
         }
       ]
     }
